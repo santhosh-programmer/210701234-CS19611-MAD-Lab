@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:padding="16dp"
+              tools:context=".MainActivity">
+    <EditText
+            android:id="@+id/etRegisterNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Register Number"
+            android:inputType="number" />
+    <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name" />
+    <EditText
+            android:id="@+id/etCGPA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CGPA"
+            android:inputType="numberDecimal" />
+    <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add" />
+    <Button
+            android:id="@+id/btnModify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Modify" />
+    <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+    <Button
+            android:id="@+id/btnView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View" />
+    <Button
+            android:id="@+id/btnClear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Clear" />
+    <TextView
+            android:text=""
+            android:textSize="15dp"
+
+            android:layout_width="376dp"
+            android:layout_height="308dp" android:id="@+id/tvDetails"/>
+</LinearLayout>

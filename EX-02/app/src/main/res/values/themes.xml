@@ -1,0 +1,23 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.Calculator" parent="Theme.Material3.DayNight.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--         <item name="colorPrimary">@color/ALMOSTBLACK</item>-->
+<!--        <item name="colorPrimaryVariant">@color/pink</item>-->
+<!--    </style>-->
+
+<!--    <style name="Theme.Calculator" parent="Base.Theme.Calculator"/>-->
+<!--</resources>-->
+
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.calculator" parent="Theme.AppCompat">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryVariant">@color/almostBlack</item>
+
+    </style>
+
+    <style name="Theme.MyApplication" parent="Base.Theme.calculator"/>
+</resources>

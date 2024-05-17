@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        tools:context=".MainActivity">
+
+    <androidx.fragment.app.FragmentContainerView android:layout_width="0dp"
+                                                 android:layout_height="0dp"
+                                                 android:id="@+id/fragmentContainer"
+                                                 android:layout_marginBottom="30dp"
+                                                 app:layout_constraintStart_toStartOf="parent"
+                                                 app:layout_constraintEnd_toEndOf="parent"
+                                                 app:layout_constraintTop_toTopOf="parent"
+                                                 app:layout_constraintBottom_toTopOf="@id/buttonFragment1"/>
+
+    <Button android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@id/buttonFragment1"
+            android:textSize="15sp"
+            android:text="Student Basic Details"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/buttonFragment2"/>
+    <Button android:layout_width="150dp"
+            android:layout_height="70dp"
+            android:id="@id/buttonFragment2"
+            android:textSize="15sp"
+            android:text="Student Mark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/buttonFragment1"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

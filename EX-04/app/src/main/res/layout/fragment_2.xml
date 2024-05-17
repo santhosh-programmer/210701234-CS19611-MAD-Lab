@@ -1,0 +1,57 @@
+<!-- fragment_student_mark.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+android:id="@+id/buttonFragment2">
+
+
+    <TextView
+            android:id="@+id/textViewMarksLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marks" />
+
+    <EditText
+            android:id="@+id/editTextMarks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your marks" />
+
+    <TextView
+            android:id="@+id/textViewTotalLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Marks" />
+
+    <EditText
+            android:id="@+id/editTextTotal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter total marks" />
+
+    <TextView
+            android:id="@+id/textViewGradeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grade" />
+
+    <EditText
+            android:id="@+id/editTextGrade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your grade" />
+
+    <TextView
+            android:id="@+id/textViewStatusLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status" />
+
+    <EditText
+            android:id="@+id/editTextStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter your status" />
+
+</LinearLayout>
